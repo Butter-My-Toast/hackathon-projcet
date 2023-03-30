@@ -1,10 +1,10 @@
 
 <h1>Yelp Guru</h1>
 
-<h3>Overview</h3>
+## Overview
 This website allows users to input a yelp restaurant link and receive the top dishes in terms of user rating, user popularity, and health. 
 
-<h3>Technologies used</h3>
+## Technologies used
 <p>Front-end: <b>React.js</b>
   
    React is used for the entire webview of the project
@@ -14,13 +14,11 @@ This website allows users to input a yelp restaurant link and receive the top di
 
   [insert here how its used and whatnot] 
 
-</p>
-<h3> Demo </h3>
-<video>
-  [insert source]
-</video>
 
-<h3> Usage </h3>
+## Demo
+
+
+## Usage
 <p> To run this project on your own you must do the following steps 
   1. Navigate to a command line and clone the repository 
 </p>
