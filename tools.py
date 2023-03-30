@@ -212,7 +212,6 @@ def retrieve_info(link):
                     calories = food_data['foodNutrients'][i]['value']
         except:
             calories = -1
-            print("errored")
 
         popularityfood_calories.append(calories)
 
