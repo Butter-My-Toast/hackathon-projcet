@@ -17,7 +17,7 @@ This website allows users to input a yelp restaurant link and receive the top di
 
 ## Demo
 
-https://user-images.githubusercontent.com/103217739/228711281-91235783-2191-48af-ab53-08050db4aa3c.mp4
+https://user-images.githubusercontent.com/103217739/228709397-a51e002d-acc5-4baa-9314-7ca6828e4842.mp4
 
 
 ## Usage
@@ -37,7 +37,7 @@ cd yelp-guru
 python main.py
 ```
 <p>
-  the output should be something similar to the following codesegment
+  the output should be something similar to the following code segment:
 </p>
 
 ```
@@ -63,3 +63,9 @@ npm run dev
 <p>
   with that it should all be up and running !
 </p>
+
+## Authors
+Alexander S. Du / [@Mantlemoose](https://github.com/Mantlemoose "Mantlemoose's github page") \
+Alex Y. Du / [@alexyd88](https://github.com/alexyd88 "alexyd88's github page") \
+Eashan Chatterjee / [@EashanC23](https://github.com/EashanC23 "EashanC23's github page") \
+Nicholas Kann / [@butter-my-toast](https://github.com/butter-my-toast "butter-my-toast's github page")
