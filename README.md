@@ -17,6 +17,8 @@ This website allows users to input a yelp restaurant link and receive the top di
 
 ## Demo
 
+https://user-images.githubusercontent.com/103217739/228711281-91235783-2191-48af-ab53-08050db4aa3c.mp4
+
 
 ## Usage
 <p> To run this project on your own you must do the following steps 
