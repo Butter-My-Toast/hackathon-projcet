@@ -22,10 +22,8 @@ def retrieve_info(link):
         if len(split_response2) < 4000:
             split_response2 = html.unescape(split_response2)
             split_response2 = split_response2.replace("\\n", "\n")
-            # print(split_response2)
             split_response2 = split_response2[0:len(split_response2) - 1]
             reviews.append(split_response2)
-            # print(split_response2)
         if (len(reviews) >= 20):
             break
 
@@ -202,7 +200,6 @@ def retrieve_info(link):
     popularityfood_calories = []
     weightscorefood_calories = []
 
-    print("dfdsfds")
     calories = -1
     for n in range(3):
         try:
@@ -212,7 +209,6 @@ def retrieve_info(link):
             food_data = data['foods'][0]
             for i, nutrient in enumerate(food_data['foodNutrients']):
                 if food_data['foodNutrients'][i]['nutrientName'] == 'Energy':
-                    print("assigned")
                     calories = food_data['foodNutrients'][i]['value']
         except:
             calories = -1
@@ -233,7 +229,7 @@ def retrieve_info(link):
 
         weightscorefood_calories.append(calories)
 
-    # if calories = -1 then the food name is something obscure and can not be searched in
+    # if calories = -1 then the food name is something obscure and can not be searched in the fooddata central database
 
     items = [weightscorefood, weightscorerating, popularityfood, popularityrating, weightscorefood_calories,
              popularityfood_calories]
