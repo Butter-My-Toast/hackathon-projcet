@@ -56,8 +56,6 @@ def retrieve_info(link):
 
     fw = []
 
-    # print(foodset)
-
     for food in foodset:
         fw.append([])
         for word in food.split():
@@ -127,7 +125,7 @@ def retrieve_info(link):
     count = []
 
     API_URL = "https://api-inference.huggingface.co/models/yangheng/deberta-v3-large-absa-v1.1"
-    headers = {"Authorization": f"Bearer {'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'}"}
+    headers = {"Authorization": f"Bearer " + os.getenv('AIkey')}
 
     def query(payload):
         response = requests.post(API_URL, headers=headers, json=payload)
